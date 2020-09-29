@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
         - name: server
-          image: checkoutservice
+          image: shuzokato/checkoutservice
           ports:
           - containerPort: 5050
           readinessProbe:

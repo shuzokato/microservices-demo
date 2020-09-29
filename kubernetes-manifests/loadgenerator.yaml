@@ -31,7 +31,7 @@ spec:
       restartPolicy: Always
       containers:
       - name: main
-        image: loadgenerator
+        image: shuzokato/loadgenerator
         env:
         - name: FRONTEND_ADDR
           value: "frontend:80"
